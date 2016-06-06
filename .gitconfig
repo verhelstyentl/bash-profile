@@ -7,8 +7,6 @@
    ui = auto
 [color "diff"]
    commit = cyan
-[jetair]
-   SYSENV = DEVELOPER
 [alias]
    logfiles = log --stat --decorate
    logg = log --graph --oneline --all
