@@ -7,9 +7,9 @@
 :set ic
 :set ruler
 :colorscheme delek
-:so /local/www/users/yverhe01/.vim/plugin/fugitive.vim
-:so /local/www/users/yverhe01/.vim/plugin/AnsiEscPlugin.vim
-:so /local/www/users/yverhe01/.vim/plugin/cecutil.vim
+:so .vim/plugin/fugitive.vim
+:so .vim/plugin/AnsiEscPlugin.vim
+:so .vim/plugin/cecutil.vim
 :set t_Co=256
 set laststatus=2
 ":set listchars=eol:$,tab:> ,trail:~,extends:>,precedes:<
