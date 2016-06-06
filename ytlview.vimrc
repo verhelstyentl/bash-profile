@@ -1,2 +1,2 @@
-:source /local/www/users/yverhe01/ytlvi.vimrc 
+:source ytlvi.vimrc 
 :set nu
