@@ -1,0 +1,23 @@
+[user]
+	name = jhtml
+	email = jhtml@jetair.be
+[log]
+   decorate = short
+[color]
+   ui = auto
+[color "diff"]
+   commit = cyan
+[jetair]
+   SYSENV = DEVELOPER
+[alias]
+   logfiles = log --stat --decorate
+   logg = log --graph --oneline --all
+   logdeco = log --simplify-by-decoration
+   diffw = diff --color-words
+   diffc = diff --cached
+   reflogs = reflog --all --date=iso --format='%C(auto)%h %C(blue)%gd%C(auto)%d %Creset %gs (%s)'
+[format]
+	 pretty = %C(auto)%+H%d%nAuthor:%C(magenta)%>(33)%aD, %ar%Creset [%Cblue%an%Creset] %nCommit:%C(red)%>(33)%cD, %cr%Creset [%Cblue%cn%Creset]%n%n    %C(normal)%s
+[push]
+   default = current
+
